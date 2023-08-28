@@ -13,7 +13,6 @@ let MemoryCard = (props) => {
     <div className="MemoryCard" onClick = {props.pickCard}>
       <div className={flip}>
         <div className="MemoryCardBack">
-         <img src="https://www.digitalcrafts.com/media/Default/assets/logos/dc-logo.svg"/>
         </div>
         <div className="MemoryCardFront">
           {props.symbol}
